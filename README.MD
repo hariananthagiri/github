@@ -86,3 +86,6 @@ Host github.com
       * **git rm file_name; git commit -m "first commit"; git push orgin main**
 * to remove a git repository from github
       * **git rm --cached repository_name; git commit -m "first commit"; git push orgin main**
+#### git fast-farword error
+* **git fetch orgin main:tmp**
+* **git rebase tmp**
