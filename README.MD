@@ -63,7 +63,7 @@ Host github.com
     * **git pull**
 * to list all the global config files
     * **git config --global --list**
-#### unset options
+#### unset options in git
 * if you want to remove all existing global config files
     * **git config --global  --unset core.excludesfile**
 * if you want to edit existing user_name and email
