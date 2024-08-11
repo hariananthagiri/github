@@ -1,13 +1,38 @@
 # GIT
 * Global Information Tracking System
+## setup
+* genrete key by using below syntax
+    * **ssh-keygen -f key_name**
+* now two keys are genrated
+    1. key_name
+    2. key_name.pub
+* copy the .pub public key file
+* goto github--->settings--->add ssh/gpg key ---> select add ssh key--->paste the public key here--->click on add key
+* now copy the private key path as shown below
+    * path/of/key/private_key_name
+* now goto c/Users/user_name/.ssh /config
+* if .ssh/config file not there crete it 
+* now goto config file in config file give the private_key path/and/private_keyname as shown below
+```git
+Host github.com
+  HostName github.com
+  User git
+  PreferredAuthentications publickey
+  IdentityFile ~/private_key_name
+```
+* here tilde ~ c/Users/user_name
+* IdentityFile ---> private_key location
+
 ### Repository
 * it is just like folder with some extra capabulityes 
 * it is a folder haveing some storage
+
 ### stages in git hub
 1. workspace
 2. stageing area (temparary area (add))
 3. local repo (commit)
 4. central repo (push)
+
 #### git commands
 * to inisialise a folder as git repo
     * **git init**
