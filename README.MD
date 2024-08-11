@@ -61,11 +61,19 @@ Host github.com
     * **git clone url**
 * to add newly added script to instace use below command 
     * **git pull**
+* to list all the global config files
+    * **git config --global --list**
+#### unset options
+* if you want to remove all existing global config files
+    * **git config --global  --unset core.excludesfile**
+* if you want to edit existing user_name and email
+    * **git config --global --unset user.name**
+    * **git config --global --unset user.email**
 * if you want to edit existing user_name and email
     * **git config --global --unset -all user.name**
     * **git config --global --unset -all user.email**
 * if you want to add existing remote orgin
-    * **git remote set-ur orgin new_url"**
+    * **git remote set-url orgin new_url"**
 * to see all the commit history in git hub use below command below
     * **git log**
 * reverse incremental search
