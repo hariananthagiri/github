@@ -79,13 +79,13 @@ Host github.com
 * reverse incremental search
     * press **ctrl + r** type a unique key word in command continue pressing **ctrl + r** 
 * grep git
-      * **history | grep "type what-you-want-to-search"**
+    * **history | grep "type what-you-want-to-search"**
 * whwn two commands are running simultaniusly in git  use below command
     *  **rm -f .git/index.lock**
 * to remove file from git repository from github
-      * **git rm file_name; git commit -m "first commit"; git push orgin main**
+    * **git rm file_name; git commit -m "first commit"; git push orgin main**
 * to remove a git repository from github
-      * **git rm --cached repository_name; git commit -m "first commit"; git push orgin main**
+    * **git rm --cached repository_name; git commit -m "first commit"; git push orgin main**
 #### git fast-farword error
 * **git fetch orgin main:tmp**
 * **git rebase tmp**
