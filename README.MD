@@ -86,6 +86,23 @@ Host github.com
     * **git rm file_name; git commit -m "first commit"; git push orgin main**
 * to remove a git repository from github
     * **git rm --cached repository_name; git commit -m "first commit"; git push orgin main**
+* to get all the info in single line use below command
+    * **command --oneline**
+* to known the commit id or sha code use below command 
+    * **git hash-object --stdin**
+* to see the inormation about commit id
+    * **git cat-file commit_id -p**
+* if you want commit id for specific content use below command
+    * **content | git hash-object --stdin**
+**example**
+* echo "hari krishna" | git hash-object --stdin
+* git is a key value pair
+    * where
+    1. key = commmit_id
+    2. value = content
+* git contains a folder called **.git** it contains all tracking information to see it use **ls -la**
+* go to .git/objects
+
 #### git fast-farword error
 * **git fetch orgin main:tmp**
 * **git rebase tmp**
