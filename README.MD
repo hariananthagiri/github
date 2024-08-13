@@ -102,6 +102,10 @@ Host github.com
     2. value = content
 * git contains a folder called **.git** it contains all tracking information to see it use **ls -la**
 * go to .git/objects
+* to switch between the branches use below command
+    * **git checkout branch_name**
+* to pull the new data to paricular branch use below command
+    * **git pull orgin branch_name**
 
 #### git fast-farword error
 * **git fetch orgin main:tmp**
