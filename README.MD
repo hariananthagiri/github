@@ -55,6 +55,8 @@ Host github.com
     * url can be http or git url
 * pushing the changes to central repo
     * **git push orgin branch_name**
+* to do the force push use below command
+    * **git push orgin branch_name -f**
 * to perform all command at once use semi colon as shown below
     * **git add .; git commit -m "first commit"; git push orgin main**
 * To get all the folders we have in the git hub to a instance use below command 
@@ -106,6 +108,8 @@ Host github.com
     * **git checkout branch_name**
 * to pull the new data to paricular branch use below command
     * **git pull orgin branch_name**
+    * **git pull**
+* **PULL BEFORE PUSH** is the best startagy because we dont known what changes are happend before 
 
 #### git fast-farword error
 * **git fetch orgin main:tmp**
