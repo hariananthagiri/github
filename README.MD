@@ -102,6 +102,17 @@ Host github.com
     2. value = content
 * git contains a folder called **.git** it contains all tracking information to see it use **ls -la**
 * go to .git/objects
+* to switch between branches use below command
+    * **git checkout branch_name**
+* to pull the changes to a specific branch
+    * **git pull orgin branch_name**
+### merge stratagies
+1. merge
+    * when you are merging one branch to another branch it will create a merge commmit
+    * it will have two parents merge will preserve the complete history it is like chain structure
+2. rebase
+3. 
+
 
 #### git fast-farword error
 * **git fetch orgin main:tmp**
