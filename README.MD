@@ -41,9 +41,18 @@ Host github.com
 * temparary area  it is storeing area
     * **git add file_name** to add particular file
     * **git add .** to add all files
-* to change the existing branch 
-    * **git branch**    to see existing branches
-    * **git branch -M branch_name**  to create a new branch we genrally give main
+*  to see existing branches
+    * **git branch**   
+* to create a new branch 
+    * **git branch -M branch_name**  we genrally give main by default it is master
+* to switch between the branches use below command
+    * **git checkout branch_name**
+* to create a branch switch to it at a time use below command
+    * **git checkout -b branch_name**
+* to rename an existing branch use below command
+    * **git branch -m old_branch_name new_branch_name**
+* to delete an existing branch use below command
+    * **git branch -d branch_name**
 
 * to commit the files with message it is nothing but local repo
     * **git commit -m "write a message"**
@@ -104,13 +113,16 @@ Host github.com
     2. value = content
 * git contains a folder called **.git** it contains all tracking information to see it use **ls -la**
 * go to .git/objects
-* to switch between the branches use below command
-    * **git checkout branch_name**
 * to pull the new data to paricular branch use below command
     * **git pull orgin branch_name**
     * **git pull**
-* **PULL BEFORE PUSH** is the best startagy because we dont known what changes are happend before 
-
+* **PULL BEFORE PUSH** is the best startagy because we dont known what changes are happend before...!
+* to merge use below command
+* **git merge branch_name**
+* to rebase use below command
+* **git rebase branch_name**
+* if we get conflict while doing rebase use below command
+* **git rebase --continue**
 #### git fast-farword error
 * **git fetch orgin main:tmp**
 * **git rebase tmp**
