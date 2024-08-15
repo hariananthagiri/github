@@ -36,6 +36,7 @@
      * **git stash pop**
       * **git stash drop**
 * the above three commands like apply, pop, drop will work on top entry stash {0}
+* for recent change it will store with a unique number called {0}
 * to delete a particular stash entry using its index value use below command
     * **git stash apply/pop/drop 'stash@{index_value}'**
     **example**
