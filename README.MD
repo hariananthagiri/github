@@ -53,7 +53,8 @@ Host github.com
     * **git branch -m old_branch_name new_branch_name**
 * to delete an existing branch use below command
     * **git branch -d branch_name**
-
+* to delete an existing branch forcefully use below command
+    * **git branch -D branch_name**
 * to commit the files with message it is nothing but local repo
     * **git commit -m "write a message"**
 * **to do commit we have to set configureation**
