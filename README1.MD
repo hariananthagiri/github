@@ -1,9 +1,15 @@
 # PULL
 * to get changes from remote repository to our local repository we use pull
     * **remote repository ----> update changes ----> local repository**
+```git
+git pull
+```
 # PUSH
 * to update changes from local repository to our remot repository we use push
     * **local repository ----> update changes ----> remote repository**
+```git
+git push orgin branch_name
+```
 # MERGE STRATAGIES
 ## CONFLICT
 ` if two branches modify the same lines of code in a file

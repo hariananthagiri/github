@@ -104,7 +104,7 @@ Host github.com
     * **git hash-object --stdin**
 * to see the inormation about commit id
     * **git cat-file commit_id -p**
-* if you want commit id for specific content use below command
+* if you want commit id or SHA code for specific content use below command
     * **content | git hash-object --stdin**
 **example**
 * echo "hari krishna" | git hash-object --stdin
