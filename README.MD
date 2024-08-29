@@ -1,7 +1,9 @@
 # GIT
 * Global Information Tracking System
 * **MY GITHUB**
-   * [MY GITHUB](https://github.com/hariananthagiri)
+```
+[MY GITHUB](https://github.com/hariananthagiri)
+```
 ## setup
 * genrete key by using below syntax
     * **ssh-keygen -f key_name**
