@@ -51,4 +51,6 @@ Kubectl get ns or any kubectl commands
 
 # if you log off and re login use below commands
 minikube start
+minikube stop
+minikube delete
 sudo systemctl start docker
