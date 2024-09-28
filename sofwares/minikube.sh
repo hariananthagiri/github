@@ -48,3 +48,7 @@ Kubectl get ns or any kubectl commands
  chmod +x ./kubectl
  sudo mv ./kubectl /usr/local/bin/kubectl
 
+
+# if you log off and re login use below commands
+minikube start
+sudo systemctl start docker
