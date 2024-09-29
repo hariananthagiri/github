@@ -96,6 +96,8 @@ Host github.com
     * **history | grep "type what-you-want-to-search"**
 * whwn two commands are running simultaniusly in git  use below command
     *  **rm -f .git/index.lock**
+* if you get any error try below command and init again
+    * **rm -rf .git**
 * to remove file from git repository from github
     * **git rm file_name; git commit -m "first commit"; git push orgin main**
 * to remove a git repository from github
